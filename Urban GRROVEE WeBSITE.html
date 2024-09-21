@@ -1,0 +1,138 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hip Hop Music Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Hip Hop Beats</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#tracks">Tracks</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to the Home of Hip Hop</h2>
+        <p>Discover the latest tracks and hottest artists in the hip-hop scene.</p>
+    </section>
+    <section id="artists">
+        <h2>Featured Artists</h2>
+        <!-- Artist profiles go here -->
+    </section>
+    <section id="tracks">
+        <h2>Top Tracks</h2>
+        <!-- Music tracks go here -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Contact form or information -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Hip Hop Beats. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+styles.css
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts and Colors */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1e1e1e;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 2px;
+    color: #ff6347; /* A vibrant red-orange */
+    text-transform: uppercase;
+}
+
+header {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffd700; /* Gold */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    background: linear-gradient(45deg, #ff6347, #1e90ff); /* Red-Orange to Blue gradient */
+}
+
+#artists, #tracks {
+    background: #444;
+}
+
+#contact {
+    background: #333;
+}
+
+footer {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Bold Captions */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+script.js
+document.addEventListener('DOMContentLoaded', function() {
+    alert('Welcome to Hip Hop Beats! Get ready for some dope beats and tracks.');
+});

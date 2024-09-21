@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff4081; /* Bright pink */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+nav {
+    background-color: #1e1e1e; /* Darker background for navigation */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 10px;
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center items */
+}
+
+nav li {
+    margin: 0 15px; /* Space between links */
+}
+
+nav a {
+    color: #ffeb3b; /* Bright yellow for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.track {
+    background-color: #4caf50; /* Green background for track items */
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.track:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.track-cover {
+    width: 100%; /* Full width */
+    max-width: 200px; /* Limit max width */
+    border-radius: 5px; /* Rounded corners */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffeb3b; /* Bright yellow for footer text */
+}
+
+.social-link {
+    color: #ffeb3b; /* Bright yellow for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
